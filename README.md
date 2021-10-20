@@ -3,28 +3,29 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  This is an application that creates a README based on questions in the command line.
+  This is an application that creates a README based on prompts in the command line.
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribute](#contribute)
+  * [Contributing](#contributing)
   * [Testing](#testing)
+  * [Questions](#questions)
   
   ## Installation
-  Node must be installed on the machine in use.
+  To install, download the files off GitHub. If not done already, install Node.js to the machine. Once done, use the ‘npm install’ command in the terminal to install the necessary Node 3rd party packages. 
 
   ## Usage
-  Download the files off GitHub and use node to initialize the application.
+  Utilizing Node.js, input the command ‘node index.js’ into the terminal and input answers based on the given prompts. Once complete, the 'README' markdown file will generate.
 
-  ## Contribute
-  To contribute, download the code and make changes, then create a pull request to be reviewed.
+  ## Contributing
+  When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. On approval of change, open an issue and create pull request once complete.
 
   ## Testing
-  Mock data.
+  Test the application by inputting the data given in the ‘test.txt’ file into the corresponding command line prompts. The result should look like the ‘README-test.png’.
 
   ## Questions
-  If you have any questions, contact me at ch@gmail.com. To see other projects I've done, view my GitHub page here: https://github.com/chaldrich24.
+  If you have any questions, contact me at ch@botmail.com. To see other projects I've done, view my GitHub page here: https://github.com/chaldrich24.
 
   ## License
   The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s.

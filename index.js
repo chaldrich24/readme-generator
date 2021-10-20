@@ -92,5 +92,5 @@ init()
         return generateMarkdown(answers);
     })
     .then(file => {
-        return writeToFile('./README.md', file);
+        return writeToFile('./dist/README.md', file);
     });

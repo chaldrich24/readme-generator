@@ -80,8 +80,9 @@ function generateMarkdown(data) {
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribute](#contribute)
+  * [Contributing](#contributing)
   * [Testing](#testing)
+  * [Questions](#questions)
   
   ## Installation
   ${install}
@@ -89,7 +90,7 @@ function generateMarkdown(data) {
   ## Usage
   ${usage}
 
-  ## Contribute
+  ## Contributing
   ${contribute}
 
   ## Testing
