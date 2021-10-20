@@ -45,7 +45,7 @@ const questions = [
         choices: ['MIT', 'GPL v3', 'ISC'],
         default: '',
         name: 'license',
-        message: 'Please select one of the following licenses: ',
+        message: 'Please select one of the following licenses:',
         when: ({licenseConfirm}) => {
             if (licenseConfirm) {
                 return true;
@@ -54,7 +54,18 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your GitHub username:'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address:'
     }
+
 ];
 
 // Function to write README file
