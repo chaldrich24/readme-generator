@@ -18,6 +18,8 @@
   ## Usage
   Utilizing Node.js, input the command ‘node index.js’ into the terminal and input answers based on the given prompts. Once complete, the 'README' markdown file will generate.
 
+  View app walkthrough: https://watch.screencastify.com/v/awKeGV09Kidx31Epwk31
+
   ## Contributing
   When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. On approval of change, open an issue and create pull request once complete.
 
@@ -30,3 +32,5 @@
   ## License
   The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s.
         https://opensource.org/licenses/MIT
+
+  
