@@ -22,3 +22,6 @@
 
   ## Testing
   
+
+  ## License
+  There is no license for this project.
