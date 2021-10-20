@@ -34,6 +34,26 @@ const questions = [
         type: 'input',
         name: 'test',
         message: 'Please write test instructions for your project.'
+    },
+    {
+        type: 'confirm',
+        name: 'licenseConfirm',
+        message: 'Would you like to include a license in your README?'
+    },
+    {
+        type: 'list',
+        choices: ['MIT', 'GPL v3', 'ISC'],
+        default: '',
+        name: 'license',
+        message: 'Please select one of the following licenses: ',
+        when: ({licenseConfirm}) => {
+            if (licenseConfirm) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
     }
 ];
 
@@ -57,6 +77,7 @@ function init() {
 // Function call to initialize app
 init()
     .then(answers => {
+        console.log(answers);
         return generateMarkdown(answers);
     })
     .then(file => {
